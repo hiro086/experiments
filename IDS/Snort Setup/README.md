@@ -3,6 +3,9 @@
 ### 官方提供了详细的环境搭建指导，建议参照Snort 2.9.9.x on Ubuntu 14 and 16.PDF自己动手安装，对工具有个粗略的了解<br>
 
 ### VM 虚拟机 镜像下载<br>
+<br>
+#### 链接：http://pan.baidu.com/s/1o78Jsp0 密码：ursq
+<br>
 虚拟机root密码 “a123456”<br>
 snort 2.9.9.0 + Barnyard2 + mysql(root 5175982903 ; snort 123456) + BASE + PulledPork(DOWNLOAD MD5 校验失败 待修复 可手动下载)<br>
 
