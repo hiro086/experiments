@@ -36,6 +36,10 @@ mysql -u snort -p -D snort -e "select count(*) from event"
 
 When I run:
 ```
+sudo /usr/local/bin/pulledpork.pl -c /etc/snort/pulledpork.conf -l
+```
+抛出
+```
 Checking latest MD5 for snortrules-snapshot-2990.tar.gz....
 	Error 500 when fetching https://www.snort.org/reg-rules/snortrules-snapshot-2990.tar.gz.md5 at /usr/local/bin/pulledpork.pl line 534.
 	main::md5file("1~~~~9", "snortrules-snapshot-2990.tar.gz", "/tmp/", "https://www.snort.org/reg-rules/") called at /usr/local/bin/pulledpork.pl line 2007
